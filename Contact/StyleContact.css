@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 1000px;
+    display: inline-block;
+}
+div#divver1 {
+    display: inline-block;
+    margin: auto;
+    width: 1000px;
+    padding-left: 20px;
+}
+main {
+}
+iframe {
+    display: inline-block;
+    width: 600px;
+}
+section.map {
+    display: inline-block;
+    width: 40%;
+}
+section.adres {
+    display: inline-block;
+    width: 50%;
+    float: right;
+}
+article {
+    display: inline-block;
+    width: 500px;
+}
+.bericht {
+    padding: 10px;
+    padding-left: 40px;
+    display: inline-block;
+    width: 45%;
+}
+.button {
+    display: inline-block;
+    width: 44%;
+
+}
+input {
+    display: inline-block;
+    width: 300px;
+    float: right;
+}
+textarea {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    float: right;
+}
+input#knop {
+    display: inline-block;
+    width: 100px;
+    float: right;
+}
