@@ -10,7 +10,7 @@
 
 header#index {
 
-    background-image: url("../../headerIMG/home-header.jpg");
+    background-image: url("../../IMG/headerIMG/home-header.jpg");
     background-position: bottom;
     padding-top: 70px;
     padding-bottom: 15px;
@@ -20,7 +20,7 @@ header#index {
 
 header#concerten {
 
-    background-image: url("../../headerIMG/concerten-header.jpg");
+    background-image: url("../../IMG/headerIMG/concerten-header.jpg");
     background-position: bottom;
     padding-top: 70px;
     padding-bottom: 15px;
@@ -30,7 +30,7 @@ header#concerten {
 
 header#sport {
 
-    background-image: url("../../headerIMG/sport-header.jpg");
+    background-image: url("../../IMG/headerIMG/sport-header.jpg");
     background-position: bottom;
     padding-top: 70px;
     padding-bottom: 15px;
@@ -40,7 +40,7 @@ header#sport {
 
 header#recepen {
 
-    background-image: url("../../headerIMG/recepten-header.jpg");
+    background-image: url("../../IMG/headerIMG/recepten-header.jpg");
     background-position: bottom;
     padding-top: 70px;
     padding-bottom: 15px;
@@ -50,7 +50,7 @@ header#recepen {
 
 header#contact {
 
-    background-image: url("../../headerIMG/contact-header.jpg");
+    background-image: url("../../IMG/headerIMG/contact-header.jpg");
     background-position: bottom;
     padding-top: 70px;
     padding-bottom: 15px;
@@ -101,7 +101,7 @@ body.recepten{
 
 .wrapper, footer {
 
-    width: 1600px;
+    width: 1200px;
     margin: auto;
 }
 
@@ -200,7 +200,7 @@ div.detailReceptSecondImg {
 div.detailReceptSecondImgSpacing {
 
     float: left;
-    margin-right: 20px;
+    margin-right: 50px;
     margin-left: 20px;
-    width: 22%;
+    width: 20%;
 }

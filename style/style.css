@@ -1,0 +1,511 @@
+
+/* MADE BY DEXANANDA - VERSION 1.0 - LAST EDITED: 19:43:15 1-11-2017 */
+
+/*The contents of this style file is meant to be copied into the main css file by Yad. This file is however not meant to be deleted afterwards.*/
+
+
+
+
+/*************************HEADER AND FOOTER*************************/
+
+header#index {
+
+    background-image: url("../IMG/headerIMG/home-header.jpg");
+    background-position: bottom;
+    padding-top: 70px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header#concerten {
+
+    background-image: url("../IMG/headerIMG/concerten-header.jpg");
+    background-position: bottom;
+    padding-top: 70px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header#sport {
+
+    background-image: url("../IMG/headerIMG/sport-header.jpg");
+    background-position: bottom;
+    padding-top: 70px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header#recepen {
+
+    background-image: url("../IMG/headerIMG/recepten-header.jpg");
+    background-position: bottom;
+    padding-top: 70px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header#contact {
+
+    background-image: url("../IMG/headerIMG/contact-header.jpg");
+    background-position: bottom;
+    padding-top: 70px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header a {
+
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 125%;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: black;
+}
+
+footer {
+
+    color: black;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #4b4b4b;
+}
+
+footer a {
+
+    font-size: 90%;
+    text-decoration: none;
+    color: #191919;
+}
+
+
+
+/*************************GENERAL-RULES FOR RECIPES*************************/
+
+* {
+
+    box-sizing: border-box;
+}
+
+body.recepten{
+
+    background-color: lightpink;
+    margin: 0;
+}
+
+.wrapper, footer {
+
+    width: 1200px;
+    margin: auto;
+}
+
+main.contentContainer {
+
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+
+
+/*************************RECEPTEN OVERZICHT*************************/
+
+.recepetenOverview {
+
+    font-family: Arial, sans-serif;
+    float: left;
+    width: 50%;
+}
+
+.recepetenOverview a {
+
+    background-color: white;
+    border: 1px solid #ca4c82;
+    border-radius: 5px;
+    padding: 3px;
+    line-height: 300%;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+    color: #ca4c82;
+}
+
+.parantImgReceptenOverview {
+
+    padding-top: 100px;
+    float: left;
+    width: 50%;
+}
+
+.ImgReceptenOverviewSpacing {
+
+    margin-left: 40px;
+    float: left;
+    width: 40%;
+}
+
+.ImgReceptenOverviewSpacing img {
+
+    width: 100%;
+}
+
+
+
+/*************************RECEPTEN DETAIL*************************/
+
+div.detailRecept {
+
+    font-family: Arial, sans-serif;
+    float: left;
+    width: 40%;
+}
+
+div.detailRecept a {
+
+    background-color: white;
+    border: 1px solid #ca4c82;
+    border-radius: 5px;
+    padding: 1px 5px;
+    /*font-weight: bold;*/
+    /*font-size: large;*/
+    text-decoration: none;
+    color: #ca4c82;
+}
+
+div.detailReceptMainImg {
+
+    margin-top: 150px;
+    float: right;
+    width: 50%;
+
+}
+
+div.detailReceptMainImg img {
+
+    width: 90%;
+}
+
+div.detailReceptSecondImg {
+
+    margin-top: 50px;
+    float: left;
+    width: 100%;
+}
+
+div.detailReceptSecondImgSpacing {
+
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 20%;
+}
+
+div.detailReceptSecondImgSpacing img {
+
+    width: 100%;
+}
+
+/********************************************************************************/
+
+/*
+* CODE GEMAAKT DOOR: Yad Rostem, voor hoofd-style, contact door Mischa, sport en concerten door Robbin, en recepten door Dave.
+*Klas: 7A
+*Datum: 1-11-2017
+ */
+html.index {
+    position: relative;
+    min-height: 100%;
+    max-width: 100%;
+    font-family: 'Titillium+web', sans-serif;
+}
+
+/*************************************CSS FOR THE INDEX PAGE - MADE BY YAD - LAST EDITED BY DEXANANDA 21:59 1-11-2717*******************************************/
+
+body#indexBody{
+    margin: 0;
+    background-image: url("https://image.freepik.com/free-vector/white-canvas-background_1053-239.jpg");
+}
+
+body#indexBody div {
+
+    padding-right: 20px;
+}
+
+div:last-of-type{
+    margin-bottom:0;
+}
+
+.nav a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+    .nav li {
+        width: 100px;
+        border-bottom: none;
+        height: 100px;
+        line-height: 150px;
+        font-size: 1.4em;
+    }
+
+    .nav li {
+        display: inline-block;
+        margin-right: 10px;
+        margin-top: 30px;
+
+    }
+    #nieuws{
+        max-width: 33%;
+        display: inline-block;
+        float: left;
+    }
+
+    #nieuws img {
+
+        width: 60%;
+    }
+}
+
+    #stage{
+        max-width: 30%;
+        display: inline-block;
+        position: absolute;
+        float: left;
+    }
+    div#divver1 {
+        display: inline-block;
+        margin: auto;
+        width: 1000px;
+        padding-left: 20px;
+    }
+
+/****************************************CSS FOR THE CONTACT PAGE - MADE BY MISCHA - LAST EDITED BY DEXANANDA 22:29 1-11-2717****************************************/
+
+html#contactHtml {
+
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+body#contactBody {
+
+    margin: 0;
+    /*width: 1000px;*/
+
+}
+
+/*div#divver2 {*/
+    /*display: inline-block;*/
+    /*margin: auto;*/
+    /*width: 1000px;*/
+    /*padding-left: 20px;*/
+/*}*/
+
+iframe {
+    display: inline-block;
+    width: 600px;
+}
+section.map {
+    display: inline-block;
+    width: 40%;
+}
+section.adres {
+    display: inline-block;
+    width: 50%;
+    float: right;
+}
+article {
+    display: inline-block;
+    width: 500px;
+}
+.bericht {
+    padding: 10px;
+    padding-left: 40px;
+    display: inline-block;
+    width: 45%;
+}
+.button {
+    display: inline-block;
+    width: 44%;
+
+}
+input {
+    display: inline-block;
+    width: 300px;
+    float: right;
+}
+textarea {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    float: right;
+}
+input#knop {
+    display: inline-block;
+    width: 100px;
+    float: right;
+}
+
+/****************************************CSS FOR THE CONCERT AND SPORTS PAGES - MADE BY ROBBIN - LAST EDITED BY DEXANANDA hh:mm 1-11-2717****************************************/
+
+/*.wrapper    {*/
+    /*margin:auto;*/
+    /*width:960px;*/
+/*}*/
+
+/************************CONCERTS*************************/
+
+body#concertenBody {
+
+    margin: 0;
+}
+
+section.concertenTitel{
+    text-align:right;
+    width:960px;
+}
+table{
+    float: right;
+}
+.concertImg{
+    display:inline;
+}
+.concertDetails{
+    float:right;
+    text-align:center;
+    display:inline;
+    padding-top:20px;
+    padding-right:50px;
+}
+.michaelDetails{
+    float:right;
+    text-align:center;
+    display:inline;
+    padding-top:20px;
+}
+article.text1{
+    width:18%;
+    display:inline-block;
+}
+article.text2{
+    width:18%;
+    display:inline-block;
+    vertical-align:top;
+}
+article.text3{
+    width:18%;
+    display:inline-block;
+    vertical-align:top;
+}
+.michaeldiv{
+    display:inline;
+}
+section.michaelImgs{
+    width:30%;
+    float:left;
+}
+.youtube {
+    position: absolute;
+    right: 375px;
+    top: 350px;
+    width: 20%;
+}
+
+/************************SPORTS*************************/
+
+/*.wrapper{*/
+    /*margin:auto;*/
+    /*width:960px;*/
+/*}*/
+
+body#sprotBody {
+
+    margin: 0;
+}
+
+
+.sportImgs{
+    padding:10px;
+}
+.titelDing{
+    padding-left: 20px;
+}
+section.sportImgs{
+    width:60%;
+    float:left;
+}
+img.sportImgs{
+    width:25%;
+}
+article.sportText1{
+    width:35%;
+    display:inline-block;
+    vertical-align:top;
+}
+article.sportText2{
+    width:25%;
+    /*padding-left:50px;*/
+    vertical-align:top;
+    float:left;
+}
+article.sportText3{
+    width:25%;
+    vertical-align:top;
+    display:inline;
+}
+
+#sportAdressContainer {
+
+}
+
+.voetbalImgs{
+    display:inline;
+    padding-left:20px;
+    padding-right:20px;
+}
+.voetbalImgs1{
+    display:inline;
+}
+.voetbalArticles{
+    display:inline-block;
+    float:left;
+    width:175px;
+    padding-left:40px;
+    padding-top:20px;
+    padding-right:10px;
+
+}
+.voetbalArticles1{
+    display:inline-block;
+    width:175px;
+    padding-top:20px;
+}
+.voetbalArticles2{
+    width:175px;
+    display:inline-block;
+    padding-top:20px;
+    vertical-align: top;
+}
+.voetbalImgs2{
+    display:inline-block;
+    padding-top: 20px;
+    vertical-align:top;
+}
+.titelding2{
+    float:left;
+    padding-left:40px;
+
+}
+.titelding3{
+    float:right;
+    padding-right:400px;
+}
+
+
