@@ -1,4 +1,33 @@
-.sportWrap{
+.wrapper{
     margin:auto;
     width:960px;
+}
+.sportImgs{
+    padding:10px;
+}
+.titelDing{
+    padding-left: 20px;
+}
+section.sportImgs{
+    width:60%;
+    float:left;
+}
+img.sportImgs{
+    width:25%;
+}
+article.sportText1{
+    width:35%;
+    display:inline-block;
+    vertical-align:top;
+}
+article.sportText2{
+    width:25%;
+    padding-left:50px;
+    vertical-align:top;
+    float:left;
+}
+article.sportText3{
+    width:25%;
+    vertical-align:top;
+    display:inline;
 }
