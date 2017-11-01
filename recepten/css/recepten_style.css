@@ -1,0 +1,206 @@
+
+/* MADE BY DEXANANDA - VERSION 1.0 - LAST EDITED: 19:43:15 1-11-2017 */
+
+/*The contents of this style file is meant to be copied into the main css file by Yad. This file is however not meant to be deleted afterwards.*/
+
+
+
+
+/*************************HEADER AND FOOTER*************************/
+
+header#index {
+
+    background-image: url("../../headerIMG/home-header.jpg");
+    background-position: bottom;
+    padding-top: 70px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header#concerten {
+
+    background-image: url("../../headerIMG/concerten-header.jpg");
+    background-position: bottom;
+    padding-top: 70px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header#sport {
+
+    background-image: url("../../headerIMG/sport-header.jpg");
+    background-position: bottom;
+    padding-top: 70px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header#recepen {
+
+    background-image: url("../../headerIMG/recepten-header.jpg");
+    background-position: bottom;
+    padding-top: 70px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header#contact {
+
+    background-image: url("../../headerIMG/contact-header.jpg");
+    background-position: bottom;
+    padding-top: 70px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header a {
+
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 125%;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: black;
+}
+
+footer {
+
+    color: black;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #4b4b4b;
+}
+
+footer a {
+
+    font-size: 90%;
+    text-decoration: none;
+    color: #191919;
+}
+
+
+
+/*************************GENERAL-RULES FOR RECIPES*************************/
+
+* {
+
+    box-sizing: border-box;
+}
+
+body.recepten{
+
+    background-color: lightpink;
+    margin: 0;
+}
+
+.wrapper, footer {
+
+    width: 1600px;
+    margin: auto;
+}
+
+main.contentContainer {
+
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+
+
+/*************************RECEPTEN OVERZICHT*************************/
+
+.recepetenOverview {
+
+    font-family: Arial, sans-serif;
+    float: left;
+    width: 50%;
+}
+
+.recepetenOverview a {
+
+    background-color: white;
+    border: 1px solid #ca4c82;
+    border-radius: 5px;
+    padding: 3px;
+    line-height: 300%;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+    color: #ca4c82;
+}
+
+.parantImgReceptenOverview {
+
+    padding-top: 100px;
+    float: left;
+    width: 50%;
+}
+
+.ImgReceptenOverviewSpacing {
+
+    margin-left: 40px;
+    float: left;
+    width: 40%;
+}
+
+.ImgReceptenOverviewSpacing img {
+
+    width: 100%;
+}
+
+
+
+/*************************RECEPTEN DETAIL*************************/
+
+div.detailRecept {
+
+    font-family: Arial, sans-serif;
+    float: left;
+    width: 40%;
+}
+
+div.detailRecept a {
+
+    background-color: white;
+    border: 1px solid #ca4c82;
+    border-radius: 5px;
+    padding: 1px 5px;
+    /*font-weight: bold;*/
+    /*font-size: large;*/
+    text-decoration: none;
+    color: #ca4c82;
+}
+
+div.detailReceptMainImg {
+
+    margin-top: 150px;
+    float: right;
+    width: 50%;
+
+}
+
+div.detailReceptMainImg img {
+
+    width: 90%;
+}
+
+div.detailReceptSecondImg {
+
+    margin-top: 50px;
+    float: left;
+    width: 100%;
+}
+
+div.detailReceptSecondImgSpacing {
+
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 22%;
+}
