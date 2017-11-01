@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 1000px;
+}
+div#divver1 {
+    display: inline-block;
+    margin: auto;
+    width: 1000px;
+    padding-left: 20px;
+}
+main {
+}
+iframe {
+    display: inline-block;
+    width: 600px;
+    float: left;
+    padding-bottom: 30px;
+}
+section.map {
+    display: inline-block;
+    float: left;
+    padding-left: 10px;
+}
+section.adres {
+    display: inline-block;
+    width: 30%;
+    float: right;
+}
+article {
+    display: inline-block;
+    width: 500px;
+    padding-bottom: 10px;
+}
+.bericht {
+    padding: 10px 10px 10px 40px;
+    display: inline-block;
+    width: 45%;
+}
+.button {
+    display: inline-block;
+    width: 44%;
+
+}
+input {
+    display: inline-block;
+    width: 300px;
+    float: right;
+}
+textarea {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    float: right;
+}
+input#knop {
+    display: inline-block;
+    width: 100px;
+    float: right;
+}
+img {
+    width: 29%;
+    float: left;
+    display: inline-block;
+}
+article.bio {
+    width: 70%;
+    float: right;
+}
+section.bio1 {
+    width: 49%;
+    float: left;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+section.bio2 {
+    width: 49%;
+    float: right;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+section.bio3 {
+    width: 49%;
+    float: left;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+section.bio4 {
+    width: 49%;
+    float: right;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+h4 {
+    padding-bottom: -10px;
+}
