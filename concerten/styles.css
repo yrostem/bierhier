@@ -1,4 +1,39 @@
-.concertWrap{
+.wrapper    {
     margin:auto;
     width:960px;
+}
+section.concertenTitel{
+    text-align:right;
+    width:960px;
+}
+table{
+    float: right;
+    }
+.concertImg{
+    display:inline;
+
+}
+.concertDetails{
+    float:right;
+    text-align:center;
+    display:inline;
+    padding-top:20px;
+}
+.michaelDetails{
+    float:right;
+    text-align:center;
+    display:inline;
+    padding-top:20px;
+}
+article.text1{
+    width:18%;
+    display:inline-block;
+
+}
+.michaeldiv{
+    display:inline;
+}
+section.michaelImgs{
+    width:20%;
+    float:left;
 }
