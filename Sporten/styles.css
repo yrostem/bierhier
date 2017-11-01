@@ -31,3 +31,45 @@ article.sportText3{
     vertical-align:top;
     display:inline;
 }
+.voetbalImgs{
+    display:inline;
+    padding-left:20px;
+    padding-right:20px;
+}
+.voetbalImgs1{
+    display:inline;
+}
+.voetbalArticles{
+    display:inline-block;
+    float:left;
+    width:175px;
+    padding-left:40px;
+    padding-top:20px;
+    padding-right:10px;
+
+}
+.voetbalArticles1{
+    display:inline-block;
+    width:175px;
+    padding-top:20px;
+}
+.voetbalArticles2{
+    width:175px;
+    display:inline-block;
+    padding-top:20px;
+    vertical-align: top;
+}
+.voetbalImgs2{
+    display:inline-block;
+    padding-top: 20px;
+    vertical-align:top;
+}
+.titelding2{
+    float:left;
+    padding-left:40px;
+
+}
+.titelding3{
+    float:right;
+    padding-right:400px;
+}
